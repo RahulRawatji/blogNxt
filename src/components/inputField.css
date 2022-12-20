@@ -1,0 +1,18 @@
+.input_field{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    color: #838383;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+label{
+    color: #333;
+}
+
+input{
+    border:.5px solid hwb(0 71% 28% / 0.607);
+    border-radius: 5px;
+    padding: 8px 16px;
+}

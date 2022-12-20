@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+  font-family: Roboto, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #6e6e70;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: #e9eaed;
+}
+
+h2{
+  font-size: 1rem;
+  font-size: clamp(1rem, 1.15rem + 1vw, 1.15rem);
+  display: inline-block;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.15rem + 1vw, 2rem);
+    display: inline-block;
+}
+
+ul{
+  list-style: none;
+}
+
+/* Flex-box properties */
+
+.flex{
+  display: flex;
+  gap:1rem;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+
+.flex-align-center{
+  display: flex;
+  align-items: center;
+  gap:.25rem;
+}
+
+/* Margin Properties */
+
+.mt-3{
+  margin-top: 3%;
+}
+
+/* Font Properties */
+
+.font-black{
+  color: #242424;
+}
+
+.font-sm{
+  font-size: 13px;
+}
+
+
+.font-md{
+  font-size: 16px;
+}
+
+.bold{
+  font-weight: 600;
+}
